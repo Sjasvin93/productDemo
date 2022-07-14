@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <title>
+            Product Demo
+        </title>
+        <link rel="stylesheet" href="/css/product_update.css">
+    </head>
+    <body>
+        <p id="product_heading">
+            ENTER NEW PRODUCT QUANTITY
+        </p>
+        <div id="main_container">
+            <form method="post" action="/products/update-action/<%= product.id %>">
+                <input type="text" placeholder="Enter Quantity" name="newQuantity" id="product_quantity" required>
+                <br>
+                <input type="submit" value="UPDATE PRODUCT" id="update_button">
+            </form>
+        </div>
+    </body>
+</html>

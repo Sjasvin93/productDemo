@@ -1,0 +1,20 @@
+{
+  "name": "productdemo",
+  "version": "1.0.0",
+  "description": "Building api to perform crud operations on the products from the database",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "PRODUCTS"
+  ],
+  "author": "JASVINDER SINGH SANDHU",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "mongoose": "^6.4.4",
+    "nodemon": "^2.0.19"
+  }
+}

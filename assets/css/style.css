@@ -1,0 +1,131 @@
+#body{
+    margin: 0;
+}
+
+#main_heading{
+    margin-left: 43%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#product_btn{
+    background-color: #048836;
+    color: rgb(7, 6, 6);
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-left: 80%;
+}
+
+#product_btn:hover{
+    cursor: pointer;
+    background-color: #46a56a;
+}
+
+#top_heading{
+    display: flex;
+    background-color: black;
+    height: 30px;
+    color: #6e6b6b;
+    margin-left: 8%;
+    width: 80%;
+    padding: 5px;
+    margin-top: 20px;
+}
+
+#product_name{
+    color: rgb(202, 209, 214);
+    margin-left: 5%;
+    margin-top: 5px;
+}
+
+#product_quantity{
+    color: rgb(202, 209, 214);
+    margin-left: 25%;
+    margin-top: 5px;
+}
+
+.products-list-container{
+    width: 80%;
+    overflow-y: scroll;
+    margin-left: 9%;
+    height: 65%;
+}
+
+.product-list{
+    display: flex;
+    width: 100%;
+    height: 50px;
+}
+
+.product-name,.product-quantity{
+    width: 200px;
+    text-transform: uppercase;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    text-align: left;
+}
+
+.product-quantity{
+    margin-left: 15%;
+}
+
+::-webkit-scrollbar {
+    width: 2px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(12, 12, 12); 
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #585757; 
+}
+
+#product_form{
+    margin-left: 10%;
+}
+
+.product-update{
+    margin-left: 20%;
+}
+
+.product-delete{
+    margin-left: 5%;
+}
+
+#product_update_btn{
+    background-color: #07098a;
+    color: rgb(219, 214, 214);
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+    border: none;
+}
+
+#product_update_btn:hover{
+    background-color: #4446e6;
+    cursor: pointer;
+}
+
+#product_delete_btn{
+    background-color: #c20b0b;
+    color: rgb(219, 214, 214);
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+    border: none;
+}
+
+#product_delete_btn:hover{
+    cursor: pointer;
+    background-color: #f74242;
+}
+

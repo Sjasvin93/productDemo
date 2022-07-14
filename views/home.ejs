@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <title>
+            Product Demo
+        </title>
+        <link rel="stylesheet" href="/css/style.css">
+    </head>
+    <body>
+        <h1 id="main_heading">PRODUCT DEMO</h1>
+        <a href="/products/new-product" id="product_btn">New Product</a>
+        <div id="top_heading">            
+            <p id="product_name">NAME</p>
+            <p id="product_quantity">QUANTITY</p>
+        </div>
+        <div class="products-list-container">
+            <ul>
+                <% for(p of products ) { %>
+                 <li class="product-list">
+                     <div class="product-name">
+                         <%= p.name %>
+                     </div>
+                     <div class="product-quantity">
+                         <%= p.quantity %>
+                     </div>
+                     <div class="product-update">
+                        <a href="/products/update/<%= p.id %>" id="product_update_btn">Update</a>
+                     </div>
+                     <form action="/products/delete/<%= p.id %>" method="post" id="product_form">
+                         <div class="product-delete">
+                            <button id="product_delete_btn" value="delete" name="delete">Delete</button>
+                        </div>
+                     </form>
+                 </li>
+                <% } %>
+            </ul>
+         </div>
+    </body>
+</html>

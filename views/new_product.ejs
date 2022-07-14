@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <title>
+            Product Demo
+        </title>
+        <link rel="stylesheet" href="/css/new_product.css">
+    </head>
+    <body>
+        <p id="product_heading">
+            NEW PRODUCT
+        </p>
+        <div id="main_container">
+            <form method="post" action="/products/create">
+                <input type="text" placeholder="Enter the Project name" name="name" id="product_name" required>
+                <br>
+                <input type="text" placeholder="Enter Quantity" name="quantity" id="product_quantity" required>
+                <br>
+                <input type="submit" value="CREATE PRODUCT" id="create_button">
+            </form>
+        </div>
+    </body>
+</html>
