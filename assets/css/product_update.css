@@ -1,0 +1,46 @@
+#body{
+    margin: 0;
+}
+
+#product_heading{
+    margin-left: 39%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+#main_container{
+    background-color: rgb(47, 243, 57);
+    width: 300px;
+    height: 150px;
+    margin-top: 5%;
+    margin-left: 37%;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+#product_quantity{
+    background: none;
+    border: none;
+    border-bottom: solid 1px black;
+    width: 80%;
+    height: 25px;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+#update_button{
+    background-color: #050505;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-left: 20%;
+}
+
+#update_button:hover{
+    background-color: #4e4c4c;
+    cursor: pointer;
+}
